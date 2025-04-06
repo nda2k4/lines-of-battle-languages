@@ -1,0 +1,533 @@
+{
+  "appLoadingMessage": "Chào mừng đến với Lines of Battle!",
+  "home": "Trang chủ",
+  "language": "Ngôn ngữ",
+  "tutorial": "Hướng dẫn",
+  "play": "Chơi",
+  "ranking": "Bảng xếp hạng",
+  "profile": "Hồ sơ",
+  "history": "Lịch sử",
+  "store": "Cửa hàng",
+  "supporters": "Tài trợ",
+  "elo": "Elo",
+  "joinedAt": "Tham gia ngày {{date}}",
+  "addPlayer": "Thêm người chơi",
+  "credits": "Cảm ơn",
+
+  "settings": "Cài đặt",
+  "eloScore": "Elo của bạn là {{elo}}",
+  "eloDescription": "Elo là hệ thống điểm đánh giá một cách tương đối trình độ của người chơi. Elo càng cao, trình độ của bạn càng vượt trội so với những người chơi khác. Điểm Elo của bạn sẽ tăng lên nếu thắng, và giảm đi nếu thua",
+  "welcomeName": "Chào mừng {{name}}!",
+  "myGames": "Trận của tôi",
+  "gameStatus": {
+    "available": "Chơi tiếp",
+    "notStarted": "Chưa bắt đầu"
+  },
+  "loadingGames": "Tải trận...",
+  "noGamesYet": "Chưa có trận nào! Hãy nhấn vào Chơi để bắt đầu trận mới.",
+  "failedToLoadGames": "Không tải được trận. Làm ơn thử lại.",
+  "armyCompositions": "Bố trí Đội hình",
+  "account": "Tài khoản",
+  "scenarioEditor": "Chỉnh Bối cảnh",
+  "wiki": "Wiki",
+  "gameCard": {
+    "title": "Trận {{id}}",
+    "turn": "Lượt {{turnNumber}}/{{maxTurn}}"
+  },
+
+  "withdrawMessage": "Nếu bạn rút lui khỏi trận sẽ bị xử thua và trừ Elo. Bạn có chắc là muốn đầu hàng không?",
+
+  "loading": "Đang tải...",
+  "yes": "Có",
+  "no": "Không",
+  "by": "bởi",
+  "logout": "Đăng xuất",
+
+  "createNewGame": "Tạo trận mới",
+  "randomGameInfo": "Đội hình bạn đã tạo cho chế độ được chọn sẽ được sử dụng cho các trận ngẫu nhiên. Bạn có thể xem và thay đổi đội hình trong <0>Bố trí Đội hình</0>. Nếu bạn chưa tạo đội hình nào, đội hình tiêu chuẩn sẽ được sử dụng.",
+  "selectGameMode": "Hãy chọn một trong những Chế độ sau.",
+  "or": "Hoặc",
+  "cancel": "Hùy",
+
+  "matchmakingQueue": {
+    "inQueue": "Bạn đang ở trong hàng chờ tìm trận. Hệ thống đang tìm một người chơi cùng tùy chọn với bạn.",
+    "matchFound": "Bạn sẽ được chuyển tới trận ngay sau khi tìm được đối thủ.",
+    "continueMatchmaking": "Dù bạn rời khỏi trang, quá trình tìm trận vẫn sẽ tiếp tục và bạn sẽ nhận được thông báo ngay khi được ghép trận.",
+    "nextQueueCheck": "Kiểm tra hàng chờ sau {{countdown}} giây nữa.",
+    "onlyClanMembers": "Chỉ ghép với thành viên Liên minh"
+  },
+
+  "fastMode": "Chế độ nhanh",
+  "slowMode": "Chế độ chậm",
+  "maxTimePerTurn": "Giới hạn thời gian mỗi Lượt",
+
+  "turnTimeLimit": {
+    "30s": "30 giây",
+    "1m": "1 phút",
+    "2m": "2 phút",
+    "3m": "3 phút",
+    "5m": "5 phút",
+    "1d": "1 ngày",
+    "3d": "3 ngày",
+    "7d": "7 ngày"
+  },
+
+  "battleType": "Kiểu Trận",
+  "dynamicBattleType": {
+    "skirmish": "Đụng độ",
+    "clash": "Giao tranh",
+    "combat": "Chiến đấu",
+    "battle": "Trận chiến",
+    "grand_battle": "Đại chiến"
+  },
+
+  "matchmaking": "Tìm Trận",
+  "matchmakingDescription": "Tìm Trận giúp bạn nhanh chóng ghép trận với đối thủ ngẫu nhiên sử dụng tùy chọn có sẵn.",
+  "custom": "Tùy chỉnh",
+  "customDescription": "Chế độ Tùy chỉnh cho phép tạo một Trận với cài đặt cụ thể và mời Bạn bè chơi cùng.",
+  "createCustomGame": "Tạo Trận Tùy chỉnh",
+  "maxTurn": "Số Lượt tối đa",
+
+  "copied": "Đã sao chép!",
+  "copyLink": "Sao chép link",
+
+  "player": "Người chơi",
+  "units": "Đơn vị",
+  "unitSkins": "Skin Đơn vị",
+  "avatars": "Ảnh đại diện",
+  "withdraw": "Rút lui",
+  "importScenario": "Nhập Bối cảnh",
+  "importScenarioModal": {
+    "importInfo": "Bạn có thể nhập mọi Bối cảnh.",
+    "createInfo": "Bạn có thể tạo Bối cảnh của riêng mình trong <scenarioEditorLink/>."
+  },
+
+  "scenarioEditorTags": {
+    "tutorialMessage": "Bạn không thành thạo? Không sao, chúng tôi sẽ hỗ trợ bạn! <tutorialLink>Schaue dieses Tutorial!</tutorialLink>"
+  },
+
+  "createScenario": "Tạo Bối cảnh",
+  "loadScenario": "Tải Bối cảnh",
+  "playOffline": "Chơi offline!",
+  "createOfflineGame": "Tạo Trận offline",
+  "chooseAScenario": "Chọn Bối cảnh",
+  "playerArmy": "Đội hình Người chơi",
+  "botArmy": "Đội hình Máy",
+  "army": "Đội hình",
+
+  "deploymentStateMessage": "Đây là giai đoạn dàn quân. Hãy dùng Lượt này để bố trí các đơn vị theo ý muốn của bạn trong vùng triển khai. Sau khi hoàn thành, hãy Phát Lệnh để hoàn thành dàn quân.",
+  "youAreColor": "Bạn là phe {{color}}!",
+  "getStarted": "Bắt đầu",
+
+  "colorTag": {
+    "1": "Xanh Dương",
+    "2": "Đỏ",
+    "3": "Vàng",
+    "4": "Xanh Lá",
+    "5": "Đen"
+  },
+
+  "resume": "Tiếp tục",
+  "offerDraw": "Cầu Hòa",
+  "replayBattle": "Phát lại Trận",
+  "result": "Kết quả",
+  "exit": "Thoát",
+  "attackColor": "Màu phe tấn công",
+  "purchase": "Mua",
+  "purchased": "Đã mua",
+  "forUnit": "Cho {{unit}}",
+  "select": "Chọn",
+  "deselect": "Bỏ chọn",
+
+  "unitStat": {
+    "hp": "Máu",
+    "org": "Sĩ khí",
+    "movement": "Di chuyển",
+    "meleeAttack": "Tấn công Cận chiến",
+    "meleeDefense": "Phòng thủ Cận chiến",
+    "chargeBonus": "Chỉ số Xung kích",
+    "chargePenetration": "Hiệu quả Xung kích",
+    "orgRadius": "Vùng tăng Sĩ khí",
+    "orgRadiusBonus": "Ảnh hưởng Vùng tăng Sĩ khí",
+    "rangedAttack": "Đánh xa",
+    "limberMovement": "Di chuyển khi kéo pháo",
+    "chargeResistance": "Khả năng chống Xung kích",
+    "status": "Trạng thái",
+    "currentChargeResistance": "Khả năng chống Xung kích hiện tại"
+  },
+
+  "unitCategory": {
+    "1": "Bộ binh",
+    "2": "Kỵ binh",
+    "3": "Pháo binh",
+    "4": "Bộ binh nhẹ",
+    "5": "Kỵ binh nhẹ",
+    "6": "Kỵ binh nặng"
+  },
+
+  "category": "Hạng mục",
+
+  "damageType": {
+    "musket": "Hỏa mai",
+    "light-musket": "Hỏa mai nhẹ",
+    "artillery-sabre": "Kiếm cong Pháo binh",
+    "bayonet": "Lưỡi lê",
+    "cannon-ball": "Đạn tròn",
+    "cavalry-sabre": "Kiếm cong Kỵ binh",
+    "cavalry-lance": "Thương Kỵ binh",
+    "light-cannon-ball": "Đạn tròn hạng nhẹ",
+    "explosive-shell": "Đạn nổ",
+    "cavalry-sword": "Kiếm thẳng Kỵ binh",
+    "canister-fire": "Đạn chùm",
+    "light-canister-fire": "Đạn chùm hạng nhẹ",
+    "howitzer-canister": "Đạn chùm lựu pháo",
+    "heavy-cannon-ball": "Đạn tròn hạng nặng",
+    "heavy-canister-fire": "Đạn chùm hạng nặng",
+    "dragoon-sword": "Kiếm thẳng Long Kỵ binh"
+  },
+
+  "unitName": {
+    "1": "Bộ binh tuyến",
+    "2": "Long Kỵ binh",
+    "3": "Pháo 8-pound",
+    "4": "Bộ binh Cận vệ",
+    "5": "Kỵ binh đánh thương",
+    "6": "Pháo ngựa kéo 6-pound",
+    "7": "Khinh Bộ binh",
+    "8": "Thiết Kỵ binh",
+    "9": "Lựu pháo 6-inch",
+    "10": "Dân quân",
+    "11": "Khinh Kỵ binh",
+    "12": "Pháo 12-pound",
+    "13": "Cung Kỵ binh"
+  },
+
+  "battalionName": {
+    "1": "Tiểu đoàn Bộ binh tuyến số {{n}}",
+    "2": "Tiểu đoàn Long Kỵ binh số {{n}}",
+    "3": "Khẩu đội pháo số {{n}}",
+    "4": "Tiểu đoàn Cận vệ số {{n}}",
+    "5": "Liên đội Kỵ binh đánh thương số {{n}}",
+    "6": "Khẩu đội pháo ngựa kéo số {{n}}",
+    "7": "Tiểu đoàn Khinh Bộ binh số {{n}}",
+    "8": "Liên đội Thiết Kỵ số {{n}}",
+    "9": "Khẩu đội Lựu pháo số {{n}}",
+    "10": "Tiểu đoàn Dân quân số {{n}}",
+    "11": "Liên đội Khinh Kỵ số {{n}}",
+    "12": "Khẩu đội pháo số {{n}}",
+    "13": "Liên đội Cung kỵ số {{n}}"
+  },
+
+  "unitDescription": {
+    "1": "Tiểu đoàn Bộ binh tuyến khiêm tốn là xương sống của mọi đội quân. Vũ khí chính của nó là súng hỏa mai, nhưng nó cũng có thể cắm lưỡi lê chống lại Kỵ binh hoặc xung kích tấn công các đơn vị Bộ binh khác hoặc pháo binh.",
+    "2": "Kỵ binh hạng trung linh động và đáng tin cậy, phù hợp cho cả nhiệm vụ quấy nhiễu lẫn giao chiến lâu dài với đối thủ.",
+    "3": "Pháo binh hạng trung rẻ với hỏa lực và khả năng cơ động khiêm tốn, với đạn chùm uy lực.",
+    "4": "Những người lính lực lưỡng và dày dạn với khả năng truyền cảm hứng cho đồng đội và uy hiếp quân thù. Những đơn vị tinh nhuệ này chỉ chấp nhận những quân nhân ưu tú nhất, nên tốn nhiều tài nguyên hơn. Sự dũng mãnh và khả năng cận chiến của họ khiến họ hiệu quả nhất khi dương lê xung kích địch.",
+    "7": "Bộ binh tinh nhuệ được huấn luyện đặc biệt tập trung vào khả năng nhắm bắn và cơ động.",
+    "11": "Kỵ binh nhẹ phù hợp tấn công các đơn vị yếu hoặc đang tháo chạy. Tuy nhiên, họ sẽ gặp khó khăn khi đối đầu với Bộ binh với sĩ khí cao hoặc Kỵ binh nặng. Hãy làm suy yếu kẻ địch bằng Bộ binh hoặc pháo binh trước.",
+    "5": "Kỵ binh nhẹ tinh nhuệ được trang bị thương cho sức xung kích hủy diệt - Nhiều đợt xung kích liên tiếp từ nhiều liên đội Kỵ binh đánh thương sẽ đánh tan bất cứ đối thủ nào. Tuy nhiên, khả năng cận chiến lâu dài của họ khá hạn chế.",
+    "8": "Kỵ binh nặng đáng gờm với khả năng cận chiến ấn tượng nhất trong tất cả các đơn vị. Tuy nhiên, tốt hơn hết là vẫn nên làm suy yếu địch với bộ binh và pháo binh trước khi tung Thiết Kỵ binh vào.",
+    "12": "Pháo binh hạng nặng nhất trong thời kỳ Napoleon. Tuy những khẩu đội này cực kỳ đắt đỏ, nhưng chúng lại sở hữu hỏa lực và tầm bắn vô địch.",
+    "6": "Tốc độ và giá rẻ của loại pháo này khiến chúng trở thành công cụ hoàn hảo để hỗ trợ kỵ binh hoặc song hành cùng bộ binh.",
+    "9": "Lựu pháo hạng nhẹ với đạn nổ và đạn chùm tầm gần đặc biệt chết chóc - lý tưởng cho nhiệm vụ hỗ trợ hỏa lực tầm trung đến gần.",
+    "10": "„Dựa vào Dân quân thì cũng như tin tưởng một cây gậy gãy.“ - George Washington",
+    "13": "„Cung kỵ Bashkir đúng là lực lượng vô hại nhất thế giới.“ - Nam tước Marbot nói, mặc kệ mũi tên đang cắm vào đùi."
+  },
+
+  "damageResistances": "Khả năng chống Sát thương",
+  "otherStats": "Thông số khác",
+  "damageModifier": "Tham số Sát thương",
+  "orgDamageRatio": "Tỉ lệ Sát thương lên Sĩ khí",
+
+  "damage": "Sát thương",
+  "orgDamage": "Sát thương lên Sĩ khí",
+  "enfiladeFireModifiers": "Tham số bắn tạt sườn",
+  "rearFireModifiers": "Tham số bắn sau lưng",
+  "targetAltitude": "Chiều cao mục tiêu",
+  "canCaptureObjectives": "Có thể chiếm Điểm",
+  "cantCaptureObjectives": "Không thể chiếm Điểm",
+  "enfiladeFire": "Bắn tạt sườn",
+  "closeRange": "Tầm gần",
+  "midRange": "Tầm trung",
+  "longRange": "Tầm xa",
+  "shootingAngle": "Góc bắn",
+  "closeAttackDamage": "Sát thương tầm gần",
+  "longAttackDamage": "Sát thương tầm xa",
+  "arcHeight": "Chiều cao đường bay",
+  "aoe": "Sát thương vùng",
+  "type": "Loại",
+  "circular": "Hình tròn",
+  "radius": "Bán kính",
+  "edgeDamageModifier": "Tham số sát thương ngoài rìa",
+  "absorption": "Hấp thu",
+  "trapezoidal": "Hình thang",
+  "topWidth": "Đáy trên",
+  "bottomWidth": "Đáy dưới",
+  "height": "Chiều cao",
+  "diminishByTargetOrg": "Giảm do Sĩ khí mục tiêu",
+  "from": "từ",
+  "to": "đến",
+  "lBy": "bởi",
+  "terrainHitboxHeight": "Chiều cao địa hình",
+  "statusEffects": "Hiệu ứng Trạng thái",
+  "projectileAbsorption": "Hấp thu đạn",
+  "orgRegainByNearbyUnits": "Hồi phục Sĩ khí từ đơn vị cạnh bên",
+  "terrainPName": "Địa hình: {{name}}",
+  "effects": "Hiệu ứng",
+
+  "terrain": {
+    "0": "Đất",
+    "1": "Rừng",
+    "2": "Thành phố",
+    "3": "Đường đi",
+    "4": "Nước"
+  },
+
+  "clearPlayerUnits": "Xóa đội hình Người chơi",
+  "clearBotUnits": "Xóa đội hình máy",
+  "continueGame": "Tiếp tục Trận",
+  "createNewOfflineGame": "Tạo Trận offline",
+  "filterBy": "Lọc",
+  "name": "Tên",
+  "retry": "Thử lại",
+
+  "networkErrorModal": {
+    "title": "Ối! Mất kết nối!",
+    "message": "Có vẻ kết nối có vấn đề. Đừng lo! Bạn vẫn có thể chơi offline."
+  },
+
+  "needsUpdateModal": {
+    "title": "Cần cập nhật",
+    "message": "Một phiên bản mới của LoB đã sẵn sàng! Làm ơn cập nhật để có thể tiếp tục chơi online."
+  },
+
+  "update": "Cập nhật!",
+  "yourArmyCompositionsFor": "Đội hình của bạn cho",
+  "noUnitsYet": "Không có Đơn vị nào",
+  "armyComposition": "Đội hình",
+  "budgetAvailable": "Ngân quỹ còn",
+  "saveArmy": "Lưu Đội hình",
+  "clearUnits": "Xóa Đội hình",
+  "saving": "Lưu...",
+  "armyInvalid": "Đội hình không khả thi. Làm ơn chỉnh sửa.",
+
+  "landing": {
+    "title": "Chào mừng tới với Lines of Battle",
+    "message": "<b>Lines of Battle</b> là một trò chơi chiến thuật theo lượt nhiều người chơi lấy bối cảnh các cuộc chiến tranh của Napoleon. Được phát triển tập trung vào chiều sâu chiến thuật và chính xác với lịch sử, bạn sẽ có cơ hội tham gia những trận đánh sử thi với những người chơi khác, sử dụng kỹ năng và chiến lược để vặn sườn đối thủ!",
+    "privacy": "Nếu bắt đầu, bạn sẽ đồng ý với <0>Chính sách Bảo mật</0> của chúng tôi."
+  },
+
+  "welcomeModal": {
+    "title": "Chào mừng tới với Lines of Battle 👋",
+    "thanks": "Cám ơn vì đã tham gia, {{name}}!",
+    "p1": "Mới chơi <b>Lines of Battle</b>? Bạn nên thử <offlineLink>chơi offline</offlineLink> với Máy trước, để làm quen với các cơ chế của trò chơi và vạch ra chiến lược trong một môi trường thoải mái.",
+    "p2": "Vì trò chơi vẫn đang trong giai đoạn Beta, mời bạn tham gia <discordLink>Discord-Server</discordLink> để làm quen với những người chơi khác, tìm đối thủ, báo cáo lỗi, và chia sẻ ý kiến của mình để tăng cường trải nghiệm chơi game cho tất cả mọi người!"
+  },
+
+  "turn": "Lượt",
+
+  "loadingScreen": {
+    "fonts": "Tải phông chữ...",
+    "joiningGame": "Vào Trận...",
+    "resources": "Tải tài nguyên...",
+    "fetchingGameData": "Tải thông tin Trận...",
+    "generatingMap": "Tạo Bản đồ...",
+
+    "tip1": "Einheiten mit hoher Organisation erleiden bei einem Angriff wenig bis keinen zusätzlichen Schaden. Weichen Sie Ziele zuerst mit Feuer auf.",
+    "tip2": "Husaren sind eine leichte Kavallerie, die schwere Kämpfe vermeiden und beschädigte Einheiten und Artillerie aufspüren sollte.",
+    "tip3": "Musketen und Artillerie richten aus mittlerer Entfernung weit mehr Schaden an als aus großer Entfernung.",
+    "tip4": "Haubitzen feuern in einem hohen Bogen, was sie bei Angriffen auf Ziele in Wäldern und Gebäuden wesentlich effektiver macht als andere Artillerie.",
+    "tip5": "Sie können viele nützliche Informationen über Ihre Truppen finden, indem Sie eine Einheit auswählen, auf Info (Hotkey I) klicken und sich die Registerkarten der Einheiten ansehen.",
+    "tip6": "Fliehende Einheiten haben Abzüge bei der Neuorganisation und laufen Gefahr, komplett von der Karte gejagt zu werden. Bringen Sie desorganisierte Einheiten in Sicherheit, bevor sie fliehen, wann immer es möglich ist.",
+    "tip7": "Pferdeartillerie und Haubitzen sind viel mobiler als 12-Pfund-Artillerie. Es ist riskant, sie zusammen mit der Infanterie anzugreifen, aber sie können mit ihrem mächtigen Kartätschenfeuer auf kurze Entfernung das Blatt wenden.",
+    "tip8": "Wenn Sie eine Einheit auswählen, sehen Sie ihren Organisationsradius in Hellblau. Feinde in diesem Radius verlieren Organisation, während Freunde Organisation gewinnen.",
+    "tip9": "Ulane sind eine Elitekavallerie, die sich auf ihren verheerenden Angriff konzentriert, aber in einem längeren Kampf dem Kürassier unterlegen ist.",
+    "tip10": "Fernkampfangriffe, die eine Infanterieeinheit in der Flanke treffen, richten wesentlich mehr Schaden an.",
+    "tip11": "Siegpunkte erhält man, indem man dem Gegner Verluste zufügt oder das gegnerische Ziel mit Infanterie einnimmt. Ein großer Siegpunktevorsprung verlangsamt die Reorganisation der gegnerischen Einheiten und sichert den Sieg am Rundenende.",
+    "tip12": "Flankieren Sie den Feind, aber lassen Sie sich nicht flankieren.",
+    "tip13": "Schickt eure Lieblingsreplays über den Lines of Battle-Discord-Server ein, und das Entwicklerteam wird sie auf YouTube veröffentlichen!",
+    "tip14": "Wenn Sie Fragen zum Spiel haben, sollten Ihnen das Lines of Battle-Wiki, Reddit und der Discord-Server weiterhelfen können.",
+    "tip15": "Wenn Ihnen Lines of Battle gefällt und Sie die Entwicklern unterstützen möchten, treten Sie dem Patreon bei! Jeder Beitrag hilft.",
+    "tip16": "Wussten Sie, dass Sie Ihr Ziel während der Startphase verschieben können?",
+    "tip17": "Erobern Sie das feindliche Ziel, indem Sie 8 Runden lang ein Infanteriebataillon darauf platzieren, 8 Bataillone für eine Runde usw.",
+    "tip18": "Wählen Sie die Befehlsschaltfläche, um Befehle wie Rückzug, Feuern und Vorrücken und Schießen aufzurufen.",
+    "tip19": "Garde-Infanterie und Kürassiere haben einen starken Einfluss auf die Organisation anderer Truppen, indem sie einfach in der Nähe sind. Dieser Effekt ist stapelbar und kann dazu beitragen, dass einige wenige Eliteeinheiten das Blatt im Kampf wenden.",
+    "tip20": "Lassen Sie Ihrer Artillerie eine freie Sichtlinie; manövrieren Sie Ihre Infanterie nicht vor ihr.",
+    "tip21": "\"Es liegt an der Kavallerie, den Sieg zu verfolgen und zu verhindern, dass der geschlagene Feind sich sammelt.\" - Napoleon Bonaparte",
+    "tip22": "\"Zu planen, die Kavallerie für das Ende der Schlacht zurückzuhalten, zeigt kein Verständnis für die Kraft kombinierter Infanterie- und Kavallerieangriffe, weder für Angriff noch für Verteidigung.\" - Napoleon Bonaparte"
+  },
+
+  "fetchingBattleActions": "Ruft Schlachthandlungen ab...",
+
+  "order": {
+    "1": "Bewegen",
+    "2": "Suchen",
+    "3": "Schießen",
+    "4": "Feuern und Vorrücken",
+    "6": "Zurückfallen",
+    "7": "Plänkeln"
+  },
+
+  "selectOrder": "Befehl auswählen",
+  "allowFireWhenMoving": "Erlaube Feuern während der Bewegung",
+  "meleeDamage": "Nahkampfschaden",
+  "rangedDamage": "Fernkampfschaden",
+  "orgRegainByHp": "Org Wiedergewinnung durch LP",
+  "rangedDamageWhenMoving": "Fernkampfschaden in der Bewegung",
+  "speed": "Geschwindigkeit",
+  "speedWhenShooting": "Geschwindigkeit beim Schießen",
+  "receivedDamage": "Erhaltener Schaden",
+  "receivedOrgDamage": "Erhaltener Org Schaden",
+  "noModifiers": "Keine Modifikatoren",
+  "submitOrders": "Befehle einreichen",
+  "submitOrdersConfirmation": "Sind Sie sicher, dass Sie Ihre Befehle einreichen wollen? Einmal eingereicht, können diese nicht mehr rückgängig gemacht werden.",
+  "players": "Spieler",
+  "menu": "Menü",
+  "replayActions": "Handlungen wiedergeben",
+  "deselectUnit": "Einheit abwählen",
+  "removeUnitOrders": "Befehle der Einheit entfernen",
+  "info": "Info",
+  "meleePerformance": "Nahkampfperformance",
+  "speedByOrg": "Geschwindigkeit durch org",
+  "nTurnsLeft": "Noch {{n}} Runden",
+
+  "battleOverview": {
+    "title": "Schlachtübersicht",
+    "victoryPoints": "Siegespunkte",
+    "initialArmyPower": "Ursprüngliche Armeestärke",
+    "powerLost": "eingebüßte Stärke",
+    "lossesRatio": "Verhältnis der Verluste",
+    "objectives": "Objektive",
+    "timeWithoutObjectives": "Zeit nicht auf dem Objektiv",
+    "unitsOrgRegain": "Einheiten Org Wiedergewinnung"
+  },
+
+  "offerDrawModal": {
+    "withdrawOffer": "Rückzugsangebot",
+    "alreadyWantsDrawMessage": "Sie bieten bereits einen Rückzug an. Wollen Sie das Angebot zurückziehen?",
+    "offerDrawMessage": "Wenn Sie einen Rückzug anbieten wird das Angebot aktiv bleiben bis Sie es zurückziehen."
+  },
+
+  "defeat": "Niederlage",
+  "victory": "Sieg",
+  "draw": "Unentschieden",
+  "won": "Gewonnen",
+  "lost": "Verloren",
+  "tie": "Unentschieden",
+
+  "unitStatus": {
+    "1": "Stehen noch",
+    "2": "Fliehen schon",
+    "3": "Erholen sich"
+  },
+
+  "unitEffect": {
+    "1": "Volle Drehung",
+    "2": "Wurde angegriffen",
+    "3": "Protzt auf"
+  },
+
+  "login": "Anmeldung",
+  "signUp": "Registrieren",
+  "forgotPassword": "Passwort vergessen?",
+  "username": "Benutzername",
+  "password": "Passwort",
+  "email": "Email",
+  "usernameOrEmail": "Benutzername oder Email",
+  "continueWithGoogle": "Mit Google fortfahren",
+  "resetPassword": "Passwort zurücksetzen",
+  "enterYourEmail": "Email eingeben",
+  "sendResetLink": "Zurücksetzungs-Link senden",
+  "enterNewPassword": "Neues Passwort eingeben",
+  "newPassword": "Neues Passwort",
+  "repeatPassword": "Passwort wiederholen",
+
+  "teamSize": {
+    "title": "Teamgröße",
+    "1v1": "1 gg 1",
+    "2v2": "2 gg 2"
+  },
+
+  "offline": "Offline",
+  "offlineDescription": "Übe gegen Bots und spiele Hotseat mit Freunden auf dem gleichen Gerät!",
+
+  "premiumCurrencyLeaderboard": {
+    "title": "<premiumCurrency/> Bestenliste",
+    "subtitle": "Wer hat am meisten <premiumCurrency/>?",
+    "description": "Sie wollen der allerbeste sein? <storeLink>Gehe Sie zum Laden</storeLink> und holen Sie sich<premiumCurrency/>!"
+  },
+
+  "team": "Team",
+  "teams": "Teams",
+  "playerType": "Spielertyp",
+  "human": "Mensch",
+  "bot": "Bot",
+  "armyOfPlayer": "Armee des Spielers {{player}}",
+  "averageElo": "Durchschnittliche Elo",
+
+  "hybridDescription": "Hybridkarten benutzen nicht-zufälliges, voreingestelltes Gelände, aber ermöglichen dem Spieler benutzerdefinierte Armeen zu verwenden.",
+
+  "playLastActionsModal": {
+    "message": "Neue Schlachtereignisse haben stattgefunden, während Sie weg waren\nWollen Sie die Kampfhandlungen der letzen Runde ansehen?",
+    "button": "Abspielen"
+  },
+
+  "battleReport": "Schlachtbericht",
+  "strength": "Stärke",
+  "guns": "Kanonen",
+  "casualties": "Verluste",
+  "gunsLost": "Verlorene Kanonen",
+  "noRewards": "Keine Belohnungen",
+
+  "clan": "Koalition",
+  "clans": "Koalitionen",
+  "createClan": "Erstelle eine Koalition",
+  "clanRole": {
+    "leader": "Anführer",
+    "member": "Mitglieder"
+  },
+  "clanElo": "Koalitions-Elo: {{elo}}",
+  "members": "Mitglieder",
+  "deleteClan": "Koalition löschen",
+  "deleteClanModal": {
+    "message": "Sind Sie sicher, dass Sie <0>{{clanName}}</0> löschen wollen? Alle Mitglieder werden entfernt und es kann nicht rückgängig gemacht werden."
+  },
+  "joinClan": "Koalition beitreten",
+  "joinClanModal": {
+    "message": "Wollen Sie <0>{{clanName}}</0> beitreten? Sobald Sie eine Anfrage geschickt haben, werden Sie warten müssen, bis sie angenommen wurde. Die Anfrage läuft nach {{expirationDays}} Tagen aus."
+  },
+  "clanFull": "Koalition ist voll",
+  "requested": "Angefragt",
+  "cancelJoinRequest": "Anfrage zurückziehen",
+  "cancelJoinRequestModal": {
+    "message": "Sind Sie sicher, dass Sie die Anfrage bei <0>{{clanName}}</0> zurückziehen wollen?"
+  },
+  "cancelRequest": "Anfrage zurückziehen",
+  "keepRequest": "Anfrage beibehalten",
+  "joinRequests": "Beitrittsanfragen",
+  "noJoinRequests": "Keine unbearbeiteten Anfragen",
+  "accept": "Annehmen",
+  "reject": "Ablehnen",
+  "linkCopiedToClipboard": "Link wurde in die Zwischenablage kopiert",
+
+  "pagination": {
+    "previous": "Vorherige",
+    "next": "Nächste",
+    "page": "Seite",
+    "of": "von",
+    "items": "Einträgen"
+  },
+
+  "kick": "Rauswerfen",
+  "noDescription": "Keine Beschreibung",
+  "save": "Speichern",
+
+  "search": {
+    "clans": "Suche Koalitionen"
+  },
+
+  "formation": "Formation",
+  "findGame": "Spiel finden",
+  "gameIdOrLink": "Spiel-ID oder Link",
+  "playFree": "Kostenlos Spielen"
+}
